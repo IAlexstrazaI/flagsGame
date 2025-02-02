@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+console.log("template connected");
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+  template get to page 
   </main>
 </template>
