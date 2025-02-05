@@ -1,14 +1,11 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import GameHeader from './components/GameHeader.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <HelloWorld msg="asd" />
-    </div>
-  </header>
+  <div class="header">
+    <GameHeader />
+  </div>
 
+  <router-view />
 </template>
-
